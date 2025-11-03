@@ -12,37 +12,25 @@ const Dropdown = () => {
       id: 'profile',
       label: 'Profil',
       icon: User,
-      action: () => {
-        console.log('Profil clicked')
-        setIsOpen(false)
-      }
+      
     },
     {
       id: 'settings',
       label: 'Einstellungen',
       icon: Settings,
-      action: () => {
-        console.log('Einstellungen clicked')
-        setIsOpen(false)
-      }
+      
     },
     {
       id: 'help',
       label: 'Ilfe-Center',
       icon: HelpCircle,
-      action: () => {
-        console.log('Hilfe-Center clicked')
-        setIsOpen(false)
-      }
+      
     },
     {
       id: 'logout',
       label: 'Abmeldung',
       icon: LogOut,
-      action: () => {
-        console.log('Abmeldung clicked')
-        setIsOpen(false)
-      }
+      
     }
   ]
 

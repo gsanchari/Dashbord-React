@@ -16,10 +16,7 @@ const EditModal = ({ isOpen, onClose, onSave, customer }) => {
     vorname: '',
     nachname: '',
     email: '',
-    telefon: '',
-    plz: '',
-    stadt: '',
-    strasse: ''
+    telefon: ''
   })
 
   
@@ -30,10 +27,7 @@ const EditModal = ({ isOpen, onClose, onSave, customer }) => {
         vorname: vorname,
         nachname: nachname,
         email: customer.email || '',
-        telefon: customer.phone || '',
-        plz: '',
-        stadt: '',
-        strasse: ''
+        telefon: customer.phone || ''
       })
     }
   }, [customer])

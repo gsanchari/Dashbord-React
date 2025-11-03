@@ -2,7 +2,8 @@ import React from 'react'
 import { Trash2 } from 'lucide-react'
 
 const DeleteModal = ({ isOpen, onClose, onConfirm }) => {
-  if (!isOpen) return null
+  if (!isOpen) 
+    return null
 
   const handleBackdropClick = (e) => {
     if (e.target === e.currentTarget) {
@@ -17,7 +18,7 @@ const DeleteModal = ({ isOpen, onClose, onConfirm }) => {
     >
       <div
         className="bg-white rounded-lg shadow-xl w-full max-w-md mx-4"
-        onClick={(e) => e.stopPropagation()}
+        // onClick={(e) => e.stopPropagation()}
       >
         
         <div className="p-6">
